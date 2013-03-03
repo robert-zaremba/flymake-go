@@ -1,12 +1,18 @@
 ;;; flymake-go.el --- A flymake handler for go-mode files
 ;;
-;;; Author: Michael Fellinger <michael@iron.io>
-;;; Version: 2012.10.13
-;;; URL: https://github.com/manveru/flymake-go
-;;; Package-Requires: ((flymake "0.4.12"))
-;;;
+;; Author: Michael Fellinger <michael@iron.io>
+;;         Robert Zaremba <robert.marek.zaremba@wp.eu>
+;; Version: 2012.10.13
+;; Keywords: Go flymake
+;; URL: https://github.com/robert-zaremba/flymake-go
+;; Package-Requires: ((flymake "0.4.12"))
+;;
+;; This file is not part of GNU Emacs.
+;;
 ;; Usage:
 ;; (require 'flymake-go)
+;;
+;;; Code:
 
 (require 'flymake)
 
