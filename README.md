@@ -10,7 +10,7 @@ An Emacs flymake handler for go-mode files
 *package.el* is a package manager module for Emacs. If you are not familiar with it I strongly
 recommend using it. On [EmacsWiki](http://emacswiki.org/emacs/ELPA) is an instruction how to us it.
 
-If you have *Marmalade* repository activated then simply:
+If you have [MELPA](http://melpa.milkbox.net/) repository activated then simply:
 
     M-x package-install flymake-go
 
