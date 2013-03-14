@@ -31,3 +31,11 @@ Add to your *.emacs*
 
     (eval-after-load "go-mode"
       '(require 'flymake-go))
+	  
+## Others
+
+###  Flycheck
+
+Flycheck essentially it's *flymake done right*.
+
+I encourage you to give a try to *flycheck*. [Read more](http://rz.scale-it.pl/2013/03/04/emacs_on_fly_syntax_checking_for_go_programming_language.html)
