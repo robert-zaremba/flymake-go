@@ -22,8 +22,7 @@ If you have [MELPA](http://melpa.milkbox.net/) repository activated then simply:
 
 Otherwise download *flymake-go.el* and:
  * move it into your site-lisp directory and byte-compile
- * use *package.el* to handle managing this package
-    M-x package-install-file flymake-go.el
+ * use *package.el* to handle managing this package: ``M-x package-install-file flymake-go.el``
 
 
 ### Update *.emacs* configuration file
