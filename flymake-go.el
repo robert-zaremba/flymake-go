@@ -10,8 +10,11 @@
 ;; This file is not part of GNU Emacs.
 ;;
 ;; Usage:
-;; (require 'flymake-go)
-;;
+
+;; add following code to .emacs
+;;   (eval-after-load "go-mode"
+;;     '(require 'flymake-go))
+
 ;;; Code:
 
 (require 'flymake)
@@ -26,10 +29,6 @@
 (push '(".+\\.go$" flymake-go-init) flymake-allowed-file-name-masks)
 
 (add-hook 'go-mode-hook (lambda () (flymake-mode)))
-
-;;;###autoload
-(eval-after-load "go-mode"
-  '(require 'flymake-go))
 
 (provide 'flymake-go)
 
