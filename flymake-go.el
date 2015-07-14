@@ -5,7 +5,6 @@
 ;; Version: 2013.03.14
 ;; Keywords: Go flymake
 ;; URL: https://github.com/robert-zaremba/flymake-go
-;; Package-Requires: ((flymake "0.4.13"))
 ;;
 ;; This file is not part of GNU Emacs.
 ;;
